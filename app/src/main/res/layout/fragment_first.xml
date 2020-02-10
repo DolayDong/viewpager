@@ -3,37 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".FirstFragment"
+    >
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/lv_data"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/first_fragment"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:paddingTop="10dp"
-        android:textSize="30sp"/>
-    <ViewAnimator
-        android:id="@+id/gif_first_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="match_parent" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/selamatdatang"
-        android:layout_marginTop="100dp"/>
-
-    <TextView
-        android:id="@+id/tv_default"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="DEFAULT"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_marginTop="400dp"/>
 
 </FrameLayout>
